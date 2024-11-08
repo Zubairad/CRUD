@@ -1,0 +1,58 @@
+.user-form {
+  width: 400px;
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.user-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.user-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.user-form .create {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.user-form .read {
+  background-color: #3F51B5; /* Blue */
+  color: white;
+}
+
+.user-form .update {
+  background-color: #FF9800; /* Orange */
+  color: white;
+}
+
+.user-form .delete {
+  background-color: #F44336; /* Red */
+  color: white;
+}
+
+.user-form button:hover {
+  opacity: 0.8;
+}
